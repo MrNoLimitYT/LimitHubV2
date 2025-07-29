@@ -79,7 +79,6 @@ local Button = Tab:CreateButton({
    Callback = function()
    if game.PlaceId == 137925884276740 then
 	loadstring(game:HttpGet("https://pastebin.com/raw/tUL4jBZ2"))()
-end
    end,
 })
 
