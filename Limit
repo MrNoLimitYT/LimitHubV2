@@ -89,13 +89,6 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "Pet Sim99,
-   Callback = function()
-   loadstring(game:HttpGet("https://getsomber.com/loader.lua"))()
-   end,
-})
-
-local Button = Tab:CreateButton({
    Name = "Steal a Brainrot",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/void2realyt/Brainrot-God-Server-Finder-Steal-A-Brainrot-Script/refs/heads/main/obfuscated_script-1752720958014.lua.txt"))()
