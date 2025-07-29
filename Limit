@@ -68,6 +68,27 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
+   Name = "Steal a Animal",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/steal-animals/main/steal%20animals"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Blade Ball",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/AgentX771/ArgonHubX/main/Loader.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Strongman Simulator",
+   Callback = function()
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Strongman-Simulator-Strongman-Simolator-41260"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
    Name = "Steal a Brainrot",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/void2realyt/Brainrot-God-Server-Finder-Steal-A-Brainrot-Script/refs/heads/main/obfuscated_script-1752720958014.lua.txt"))()
