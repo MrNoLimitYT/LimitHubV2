@@ -89,13 +89,6 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "Punch Monsters",
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/liamVSC/scripts/refs/heads/main/GAMEDESTROYER"))()
-   end,
-})
-
-local Button = Tab:CreateButton({
    Name = "Pet Sim99,
    Callback = function()
    loadstring(game:HttpGet("https://getsomber.com/loader.lua"))()
