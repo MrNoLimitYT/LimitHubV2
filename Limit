@@ -98,7 +98,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "Arm Wrestle Sim",
    Callback = function()
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/bigbeanscripts/AWS-3/refs/heads/main/Ducky'))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/bigbeanscripts/AWS-3/refs/heads/main/Ducky'))()
    end,
 })
 
