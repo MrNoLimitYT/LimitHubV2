@@ -87,6 +87,26 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://rawscripts.net/raw/Strongman-Simulator-Strongman-Simolator-41260"))()
    end,
 })
+local Button = Tab:CreateButton({
+   Name = "Punch Monsters",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/liamVSC/scripts/refs/heads/main/GAMEDESTROYER"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Pet Sim99,
+   Callback = function()
+   loadstring(game:HttpGet("https://getsomber.com/loader.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Arm Wrestle Sim",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/bigbeanscripts/AWS-3/refs/heads/main/Ducky'))()
+   end,
+})
 
 local Button = Tab:CreateButton({
    Name = "Steal a Brainrot",
