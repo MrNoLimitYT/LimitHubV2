@@ -75,14 +75,6 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "Build a Plane",
-   Callback = function()
-   if game.PlaceId == 137925884276740 then
-	loadstring(game:HttpGet("https://pastebin.com/raw/tUL4jBZ2"))()
-   end,
-})
-
-local Button = Tab:CreateButton({
    Name = "Steal a Animal",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/steal-animals/main/steal%20animals"))()
